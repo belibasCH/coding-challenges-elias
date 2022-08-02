@@ -1,4 +1,4 @@
-# 01 - Array Split Challenge
+# 03 - Sorting Objects Challenge
 
 ## Mission
 Write code in your favourite programming language which sorts the objects of the input array by several properties. The input array contains many objects which represents an invoice number. Sort this array by customer number ascending and invoice number descending..
