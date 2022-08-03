@@ -13,3 +13,6 @@ To test your codes each challenge must match the following requirements:
 1. [Array Split Challenge](./01-array-split/)
 2. [Find Missing Elements Challenge](./02-missing-elements/)
 3. [Sorting Objects Challenge](./03-sorting-objects/)
+
+## Hints and resources
+* It's always a good idea to know the book Clean Code. [Here is a summary](./docs/CleanCodeSummary.md).
