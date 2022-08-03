@@ -13,6 +13,7 @@ You'll have an input of a string array. This Array contains an unkown number of 
 ```json
 [
     ["elem1", "elem2", "elem3"],
-    ["elem4", "elem5", "elem6"]
+    ["elem4", "elem5", "elem6"],
+    ["elem7"]
 ]
 ```
