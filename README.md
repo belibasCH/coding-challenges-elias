@@ -15,6 +15,7 @@ To test your codes each challenge must match the following requirements:
 3. [Sorting Objects Challenge](./03-sorting-objects/)
 4. [Create a Spring Boot API](./04-create-a-spring-boot-api)
 5. [Create a basic Frontend](./05-create-a-basic-frontend)
+6. [Glue 04 and 05 together](./06-glue-04-and-05-together)
 
 ## Hints and resources
 * It's always a good idea to know the book Clean Code. [Here is a summary](./docs/CleanCodeSummary.md).
