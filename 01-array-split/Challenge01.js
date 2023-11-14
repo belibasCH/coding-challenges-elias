@@ -7,13 +7,13 @@ const expectedOutput = [
 ];
 
 const splitArray = arr => elements => {
-    const output = [];
+    const multiDimension = [];
     let counter = 0;
     while (counter < arr.length) {
-        output.push(arr.slice(counter, counter+elements));
+        multiDimension.push(arr.slice(counter, counter+elements));
         counter += elements;
     }
-    return output;
+    return multiDimension;
 };
 
 console.log("Ausgabe Challenge 01:");
