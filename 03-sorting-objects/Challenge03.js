@@ -60,6 +60,7 @@
             return parseInt(a.customer_number) - parseInt(b.customer_number);
         });
 
+
     const container = document.getElementById("challengeThree");
     const inputfield = document.createElement("input");
     inputfield.type = "file";
