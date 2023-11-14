@@ -11,14 +11,9 @@ const expectedOutput =[
 ];
 
 const findMissingElements = arr => {
-    const library = new Set();
-    arr.forEach( subArray => {
-        subArray.forEach( element => {
-            library.add(element);
-        });
-    });
-
+    const library = new Set(arr.flat());
     const output = new Set();
+
     arr.forEach( sub => {
         library.forEach( element => {
             if (!sub.includes(element)) {
@@ -26,9 +21,8 @@ const findMissingElements = arr => {
             }
         });
     });
-    const result = Array.from(output);
-    result.sort();
-    return result;
+    return Array.from(output).sort();
+
 };
 
 console.log("Ausgabe Challenge 02:");
