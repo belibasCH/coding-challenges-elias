@@ -3,13 +3,11 @@
 ## Requirements/Introduction for Reviewers
 1. Open up the File index.html in your browser. - There you will find the test Results of the Challenges.
 2. If you want to see the output in Detail - check out the browser console.
-3. 
 
-Structure of the Repository:
-* Each Challenge has its own folder.
-* Each Challenge has its own JS File. (ChallengeXX.js)
-* Each Challenge has its own Tests that are included in the End of the File.
-* In the Folder "Testfiles" you will find the Testfiles to upload if you want.
+## Structure of the Repository:
+* Each Challenge has its own folder and its own JS File. (ChallengeXX.js)
+* Each Challenge has its own Tests that are included in the End of the File. - keyword Boomerang Protection. ;-)
+* In the Folder "Testfiles" you can find a Testfile to upload if you want.--> Challenge 3
 
 ## Feedback
 I really enjoyed the task. The description of the second challenge is a bit short. I think different interpretations are possible.

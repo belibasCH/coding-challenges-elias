@@ -67,8 +67,8 @@
     inputfield.accept = ".json";
     container.appendChild(inputfield);
 
-    //function to parse the file from html input - TODO: Cases for empty input, wrong input, file list etc.
-    const runCustomSort = () => {
+    //function to handle html input - TODO: Cases for empty input, wrong input, file list etc.
+    const parseInput = () => {
         const file = inputfield.files[0];
         const reader = new FileReader();
         reader.readAsText(file);
@@ -81,7 +81,7 @@
 
     const button = document.createElement("button");
     button.innerText = "Challenge03 ausführen";
-    button.onclick = runCustomSort;
+    button.onclick = parseInput;
     container.appendChild(button);
 
     console.log("Ausgabe Challenge 03:");
