@@ -52,21 +52,44 @@
         },
     ];
 
+    const customSort = json =>
+         json.sort((a, b) => {
+            if (a.customer_number === b.customer_number) {
+                return b.invoice.number - a.invoice.number;
+            }
+            return parseInt(a.customer_number) - parseInt(b.customer_number);
+        });
+
+    const container = document.getElementById("challengeThree");
+    const inputfield = document.createElement("input");
+    inputfield.type = "file";
+    inputfield.accept = ".json";
+    container.appendChild(inputfield);
+
+    const runCustomSort = () => {
+        const file = inputfield.files[0];
+        const reader = new FileReader();
+        reader.readAsText(file);
+        reader.onload = () => {
+            const json = JSON.parse(reader.result);
+            console.log(customSort(json));
+        };
+    };
 
 
-    const output = input.sort( (a,b) => {
-        if (a.customer_number === b.customer_number) {
-            return b.invoice.number - a.invoice.number;
-        }
-        return parseInt(a.customer_number) - parseInt(b.customer_number);
-    });
-
-
+    const button = document.createElement("button");
+    button.innerText = "Challenge03 ausführen";
+    button.onclick = runCustomSort;
+    container.appendChild(button);
 
     console.log("Ausgabe Challenge 03:");
-    console.log(output);
-    document.write("<h2>Challenge 03 - Sort</h2>");
+    console.log(customSort(input));
+    document.write("<br>");
     document.write("You find the output in the console.");
     document.write("<br>");
-    document.write("Test: " + (output.toString() === expectedOutput.toString()));
+    document.write("Test: " + (customSort(input).toString() === expectedOutput.toString()));
+    document.write("<br><br>");
+    document.write("<br>");
+
+
 })();
