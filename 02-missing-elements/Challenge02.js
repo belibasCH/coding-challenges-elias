@@ -33,7 +33,7 @@ const findMissingElements = arr => {
 
 console.log("Ausgabe Challenge 02:");
 console.log(findMissingElements(input));
-document.write("<h2>Challenge 02 Split Array</h2>");
+document.write("<h2>Challenge 02 - Missing Elements</h2>");
 document.write("You find the output in the console.");
 document.write("<br>");
 document.write("Test:" + (findMissingElements(input).toString() === expectedOutput.toString()));
