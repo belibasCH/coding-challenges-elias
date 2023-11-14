@@ -1,5 +1,25 @@
 # Coding Challenges
 
+## Requirements for Reviewers
+1. Open up the File Overview.html in your browser.
+2. You find the test Results of the Challenges here.
+3. If you want to see the output in Detail - check out the browser console.
+
+Structure of the Repository:
+* Each Challenge has its own folder.
+* Each Challenge has its own JS File. (ChallengeXX.js)
+* Each Challenge has its own Tests that are included in the End of the File.
+
+## Feedback
+I really enjoyed the task. The description of the second challenge is a bit short. I think different interpretations are possible.
+If I have time, I will solve more challenges until Thursday.
+I'm looking forward to your feedback
+
+
+
+
+# Initial Task
+
 Code in JavaScript/TypeScript or Java is preffered but not mandatory.
 
 ## General Challenge Requirements
