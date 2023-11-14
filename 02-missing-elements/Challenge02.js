@@ -12,16 +12,16 @@ const expectedOutput =[
 
 const findMissingElements = arr => {
     const library = new Set(arr.flat());
-    const output = new Set();
+    const missingElements = new Set();
 
     arr.forEach( sub => {
         library.forEach( element => {
             if (!sub.includes(element)) {
-                output.add(element);
+                missingElements.add(element);
             }
         });
     });
-    return Array.from(output).sort();
+    return Array.from(missingElements).sort();
 
 };
 

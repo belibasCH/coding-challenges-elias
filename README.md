@@ -13,8 +13,6 @@ Structure of the Repository:
 
 ## Feedback
 I really enjoyed the task. The description of the second challenge is a bit short. I think different interpretations are possible.
-If I have time, I will solve more challenges until Thursday.
-I'm looking forward to your feedback. 
 
 
 # Initial Task
