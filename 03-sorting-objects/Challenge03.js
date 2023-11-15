@@ -57,7 +57,7 @@
             if (a.customer_number === b.customer_number) {
                 return b.invoice.number - a.invoice.number;
             }
-            return parseInt(a.customer_number) - parseInt(b.customer_number);
+            return a.customer_number.localeCompare(b.customer_number);
         });
 
 
